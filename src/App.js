@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="" element={ < Home />}/>
+        <Route path="/tvmaze-api-react" element={ < Home />}/>
         <Route path="/sum" element={ < Summary />}/>
     </Routes>
     </div>
